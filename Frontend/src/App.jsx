@@ -7,11 +7,9 @@ import LinkSaver from "./components/LinkSaver";
 function App() {
   return (
     <>
-      <div className="app">
-        <Navbar />
-        <LinkSaver />
-        <Footer />
-      </div>
+      <Navbar />
+      <LinkSaver />
+      <Footer />
     </>
   );
 }
